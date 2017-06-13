@@ -1,0 +1,52 @@
+*{
+  margin: auto;
+  text-align: center;
+  font-family: "space", impact;
+}
+@font-face {
+  font: "space";
+  src: url("resources/fonts/ASpace.otf");
+}
+body{
+  background-color: #009933;
+}
+#steps{
+  display: block;
+  background-color: "red";
+}
+#wrapper{
+  width: 90%;
+  height: 95%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #66b3ff;
+}
+#footer, a{
+  font-size: 10px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+#images{
+  width: 100%;
+  height: 100px;
+  flex-wrap: wrap;
+}
+#mainpics{
+  width: 200px;
+  margin: 1% 3%;
+  margin-top: 100px;
+  height: auto;
+}
+.button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+  height: 25px;
+  width: auto;
+  border-radius: 20px;
+  outline: none;
+}
+.button:hover{
+  background-color: gray;
+}
